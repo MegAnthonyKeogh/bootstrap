@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-image: url("../images/background.png");
+    
+}
+
+p {
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+main {
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+#my-name, h1 {
+    font-size: 1.8rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#my-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+footer a, footer span {
+    font-size: 0.7rem;
+    padding: 0 0.3rem;
+}
+
+footer {
+    height: 55px;
+    border-top: 5px #4aaaa5;
+    border-style: solid;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    z-index: 2000 !important;
+}
+
+h5 {
+    background-color: grey;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* Media queries */
+@media screen and (max-width: 760px) {
+    #main-content {
+        padding: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .margin-bottom {
+        margin-bottom: 2rem !important;
+    }
+
+    footer {
+        position: static;
+    }
+}
